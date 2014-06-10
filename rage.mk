@@ -2,12 +2,12 @@
 $(call inherit-product, device/motorola/spyder/full_spyder.mk)
 
 # Inherit some common Berserk stuff.
-$(call inherit-product, vendor/berserk/config/common_full_phone.mk)
+$(call inherit-product, vendor/rage/config/common_full_phone.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := berserk_spyder
+PRODUCT_NAME := rage_spyder
 PRODUCT_BRAND := verizon
 PRODUCT_DEVICE := spyder
 PRODUCT_DEVICE_PREFIX := cdma
